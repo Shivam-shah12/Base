@@ -124,7 +124,7 @@ export default function UploadModal() {
   return (
     <main className="flex min-h-screen">
       <div
-        className={`w-full flex flex-col h-screen space-y-20 px-4 py-1 overflow-y-auto bg-inherit`}
+        className={`w-full flex flex-col h-screen space-y-12  px-4 py-1 overflow-y-auto bg-inherit`}
       >
         <div className="flex items-center justify-between p-4 mb-4">
         <div className="text-2xl font-semibold">
@@ -136,7 +136,7 @@ export default function UploadModal() {
           </div>
         </div>
 
-        <div className="flex justify-center items-center w-full h-full">
+        <div className="flex justify-center  w-full items-center md:h-full">
           <div
             className={`w-full lg:w-[42%] p-4 rounded-lg shadow-lg dark:bg-black bg-inherit `}
           >

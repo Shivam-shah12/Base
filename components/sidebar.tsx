@@ -144,7 +144,7 @@ const Sidebar = () => {
             key={item.name}
             href={item.link}
             onClick={() => handleLinkClick(item.name)}
-            className={`w-full no-underline rounded-md  ${isCollapsed
+            className={`w-full no-underline rounded-md px-4 ${isCollapsed
               ? "flex justify-center"
               : "hover:bg-gradient-to-r hover:from-[#ccc9c9] hover:to-transparent"
               }`}

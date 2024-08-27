@@ -65,7 +65,7 @@ export default function TagTable() {
       </TableHeader>
       <TableBody className="w-full">
         {data.map((row, index) => (
-          <TableRow key={row.id} className="grid w-full gap-x-3 overflow-auto dark:bg-black bg-white my-2 grid-cols-[0.7fr_1fr_1fr_1fr_2fr]">
+          <TableRow key={row.id} className="grid w-full gap-x-3 overflow-auto dark:bg-black rounded-lg bg-white my-2 grid-cols-[0.7fr_1fr_1fr_1fr_2fr]">
             <TableCell className="w-[70px] text-center">
               {index + 1}
             </TableCell>
