@@ -127,7 +127,9 @@ export default function UploadModal() {
         className={`w-full flex flex-col h-screen space-y-20 px-4 py-1 overflow-y-auto bg-inherit`}
       >
         <div className="flex items-center justify-between p-4 mb-4">
-          <div className="text-xl font-semibold">Upload CSV</div>
+        <div className="text-2xl font-semibold">
+          Upload
+        </div> 
           <div className="md:flex hidden items-center space-x-6 cursor-pointer">
             <Bell  onClick={handleBell}/>
             <UserButton />

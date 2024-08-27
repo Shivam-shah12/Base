@@ -31,16 +31,13 @@ const defaultLink = "dashboard"
 const Sidebar = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const { close, setClose } = useStore();
-  const [activeLink, setActiveLink] = useState<string>("");
+  const [activeLink, setActiveLink] = useState<string>("dashboard");
 
 
   useEffect(() => {
     // Load the active link from local storage or set to default
     const savedLink = localStorage.getItem("activeLink");
     setActiveLink(savedLink || defaultLink);
-    localStorage.setItem("activeLink",defaultLink)
-    console.log(activeLink)
-    
   }, [activeLink]);
 
   const handleLinkClick = (linkName: string) => {

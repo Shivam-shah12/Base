@@ -8,7 +8,7 @@ import { dark } from "@clerk/themes";
 const inter = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "OpenInApp__Project",
+  title: "Base",
   description: "Welcome to the Application",
 };
 
