@@ -1,0 +1,13 @@
+################   SIDEBAR TASK 
+hovering effect
+margin padding
+icons change
+Mode Change 
+
+
+#########  upload logic
+
+when login will completed then authentication in backend we do
+
+
+gray color -> [#E7F0DC]
